@@ -79,7 +79,7 @@ $router->all('pattern', function() { … });
 
 Note: Routes must be hooked before `$router->run();` is being called.
 
-Note: There is no shorthand for `match()` as `bramus/router` will internally re-route such requests to their equivalent `GET` request, in order to comply with RFC2616 _(see [note](#a-note-on-making-head-requests))_.
+Note: There is no shorthand for `match()` as the router will internally re-route such requests to their equivalent `GET` request, in order to comply with RFC2616 _(see [note](#a-note-on-making-head-requests))_.
 
 ### Route Patterns
 
@@ -384,7 +384,7 @@ If you were to place this file into a subfolder (e.g. `public_html/some/sub/fold
 
 ## Integration with other libraries
 
-Integrate other libraries with `bramus/router` by making good use of the `use` keyword to pass dependencies into the handling functions.
+Integrate other libraries with the router by making good use of the `use` keyword to pass dependencies into the handling functions.
 
 ```php
 $tpl = new \Acme\Template\Template();
