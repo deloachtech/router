@@ -1,10 +1,10 @@
 {
   "name": "deloachtech/router",
-  "description": "A routing class.",
+  "description": "he router used in our applications.",
   "type": "library",
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
-    "php": ">=7.3.0"
+    "php": ">=5.3"
   },
   "autoload": {
     "psr-4": {
