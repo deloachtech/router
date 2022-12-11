@@ -240,7 +240,7 @@ Nesting of subroutes is possible, just define a second `$router->mount()` in the
 
 ### `Class@Method` calls
 
-We can route to the class action like so:
+You can route to the class action like so:
 
 ```php
 $router->get('/(\d+)', '\App\Controllers\User@showProfile');
