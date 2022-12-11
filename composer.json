@@ -1,6 +1,6 @@
 {
   "name": "deloachtech/router",
-  "description": "he router used in our applications.",
+  "description": "The router used in our applications.",
   "type": "library",
   "license": "MIT",
   "require": {
